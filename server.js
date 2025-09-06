@@ -57,7 +57,12 @@ await database.delete(videoId)
  return reply.status(204).send()
 });
 
+const PORT = process.env.PORT || 3333; // usa a porta do Render ou 3333 localmente
+
 server.listen({
-  host: '0.0.0.0',
-  port: process.env.PORT ?? 3333,
+  port: PORT,
+  host: "0.0.0.0", // importante para que o Render consiga acessar
+}).then(() => {
+  console.log(`Servidor rodando na porta ${PORT}`);
 });
+
