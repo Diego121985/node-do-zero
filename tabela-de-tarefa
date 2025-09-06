@@ -1,0 +1,23 @@
+# Node.js - Tarefas
+
+## Metadata
+- [*] O que é Node.js?
+- [*] Instalação
+- [*] Ambiente de desenvolvimento
+
+## Criando servidor HTTP nativo
+- [*] Configurar servidor
+- [*] Testar endpoint
+
+## Criando nossa API REST
+### Fastify
+-[*] CRUD (Create,Read,Update,Delete)
+-[*] Rotas
+-[*] Request Body
+-[*] Route parameters
+-[*] Query parameters
+-[*] Banco de dados em memória
+-[*] Banco de dados (usar Neon?)
+-[*] PostgreJS
+-[*] Deploy do projeto
+-[*] render
