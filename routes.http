@@ -1,4 +1,4 @@
-POST http://localhost:3333/videos
+POST https://node-do-zero-dju3.onrender.com/videos
 Content-type: application/json
 
 {
@@ -8,11 +8,11 @@ Content-type: application/json
 }
 
 ###
-GET  http://localhost:3333/videos
+GET  https://node-do-zero-dju3.onrender.com/videos
 
 ###
 
-PUT http://localhost:3333/videos/810cc868-d3cf-4e50-9bdc-2520db9d4e79
+PUT https://node-do-zero-dju3.onrender.com/videos/810cc868-d3cf-4e50-9bdc-2520db9d4e79
 Content-type: application/json
 
 {
@@ -24,4 +24,4 @@ Content-type: application/json
 ###
 
 
-DELETE http://localhost:3333/videos/38c7b315-1616-4a35-940e-9b29541fb163
+DELETE https://node-do-zero-dju3.onrender.com/videos/38c7b315-1616-4a35-940e-9b29541fb163
